@@ -7,3 +7,12 @@ for (int i = 0; i < N; i++)
     array[i] = Console.ReadLine()!;
 }
 
+
+for (int i = 0; i < N; i++)
+{
+    if (array[i].Length <= 3)
+    {
+        Console.Write($"{array[i]} ");
+    }
+
+}
