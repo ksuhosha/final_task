@@ -6,3 +6,4 @@ for (int i = 0; i < N; i++)
     Console.WriteLine($"введите {i+1}/{N}");
     array[i] = Console.ReadLine()!;
 }
+
