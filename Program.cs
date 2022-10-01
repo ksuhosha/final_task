@@ -7,7 +7,7 @@ for (int i = 0; i < N; i++)
     array[i] = Console.ReadLine()!;
 }
 
-
+Console.WriteLine("итогоый массив:");
 for (int i = 0; i < N; i++)
 {
     if (array[i].Length <= 3)
